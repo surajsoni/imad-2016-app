@@ -10,13 +10,13 @@ app.get('/', function (req, res) {
 });
 
 app.get('article-one', function (req, res) {
-  res.send(path.join('artice one is requisted'));
+  res.send('artice one is requisted');
 });
 app.get('article-two', function (req, res) {
-  res.send(path.join('artice two is requisted'));
+  res.send('artice two is requisted');
 });
 app.get('article-three', function (req, res) {
-  res.send(path.join('artice three is requisted'));
+  res.send('artice three is requisted');
 });
 
 app.get('/ui/style.css', function (req, res) {
